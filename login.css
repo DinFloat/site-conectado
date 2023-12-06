@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.divMae{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.divCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: linear-gradient(72deg, #8956F3 1%, #ad45ad 99%);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000053;
+}
+.divCard > h1{
+    margin: 0;
+    color: #ffb3c9;
+    font-weight: 800; 
+}
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.entrada > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #ffff;
+    box-shadow: 0px 10px 40px #00000053;
+    color: #ffb3c9;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.entrada > input::placeholder{
+    color: #be5aa2;
+}
+
+.entrada > label{
+    font-size: 12.5pt;
+    color: #ffb3c9;
+    margin-bottom: 10px;
+}
+
+.btnClass{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    background: #ffff;
+    color: #830c62;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #00000053;
+}
+
+.link{
+    text-decoration: none;
+    color: #ffcbdb;
+    font-size: 10pt;
+}
+
+.entrada > textarea{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background:#fff;
+  box-shadow: 0px 10px 40px #00000053;
+  color: #830c62;
+  font-size: 12pt;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.entrada > textarea::placeholder{
+   color: #be5aa2;
+}

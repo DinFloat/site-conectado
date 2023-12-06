@@ -1,6 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #ad45ad 1%, #8956F3 99%);
 }
 
 a {
@@ -137,24 +140,4 @@ ul li ul.dropdown{
 
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
-}
-
-.body1{
-  background-color: #00ffff;
-}
-
-.body2{
-  background-color: #ff0000;
-}
-
-.body3{
-  background-color: #8000ff;
-}
-
-.body4{
-  background-color: #fb00ff;
-}
-
-.body5{
-  background-color: #fbff00;
 }

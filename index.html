@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
+    <link rel="stylesheet" href="carousel.css" />"
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -20,15 +21,50 @@
         </div>
 
         <ul class="nav-list">
-          <li><a href="index.html">Início</a></li>
-          <li><a href="2.html">Forúm</a></li>
-          <li><a href="3.html">Projetos</a></li>
-          <li><a href="4.html">Contato</a></li>
-          <li><a href="5.html">Sobre</a></li>
+          <li><a href="index.html">Carrossel</a></li>
+          <li><a href="formulario.html">Formulário</a></li>
+          <li><a href="tabela.html">Tabela</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="divMae">
+          <div class="slides">
+              <input type="radio" name="slide" id="slide1">
+              <input type="radio" name="slide" id="slide2">
+              <input type="radio" name="slide" id="slide3">
+              <input type="radio" name="slide" id="slide4">
+              <input type="radio" name="slide" id="slide5">
+
+              <div class="slide s1">
+                  <img src="images/LuffyBase.jpg" alt="Luffy Base">
+              </div>
+              <div class="slide">
+                  <img src="images/LuffyGear2.webp" alt="Luffy Gear 2">
+              </div>
+              <div class="slide">
+                  <img src="images/LuffyGear3.webp" alt="Luffy Gear3">
+              </div>
+              <div class="slide">
+                  <img src="images/LuffyGear4.webp" alt="Luffy Gear4">
+              </div>
+              <div class="slide">
+                  <img src="images/LuffyGear5.webp" alt="Luffy Gear 5">
+              </div>
+          </div>
+
+          <div class="divNavigation">
+              <label class="bar" for="slide1"></label>
+              <label class="bar" for="slide2"></label>
+              <label class="bar" for="slide3"></label>
+              <label class="bar" for="slide4"></label>
+              <label class="bar" for="slide5"></label>
+          </div>
+      </div>
+    </main>
     <script src="mobile-navbar.js"></script>
+
+
   </body>
 </html>

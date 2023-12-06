@@ -1,0 +1,48 @@
+
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.botao-roxo {
+  background-color: #9d3f9d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.botao-roxo:hover {
+  background-color: #ffffff;
+  color: #9d3f9d;
+}
+.title{
+  color: #7d217d;
+}
+
+.number{
+  color: #7d217d;
+  font-size: 30px;
+}
+
+.subTitle{
+  color: #9d3f9d;
+}
+
+.container{
+  background-color: #f4a9fe;
+  padding: 30px;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
